@@ -1,0 +1,15 @@
+E:\repos\EfCore\Infraestruture.Scaffold\bin\Debug\net8.0\Infraestruture.Scaffold.deps.json
+E:\repos\EfCore\Infraestruture.Scaffold\bin\Debug\net8.0\Infraestruture.Scaffold.runtimeconfig.json
+E:\repos\EfCore\Infraestruture.Scaffold\bin\Debug\net8.0\Infraestruture.Scaffold.dll
+E:\repos\EfCore\Infraestruture.Scaffold\bin\Debug\net8.0\Infraestruture.Scaffold.pdb
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.csproj.AssemblyReference.cache
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.AssemblyInfoInputs.cache
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.AssemblyInfo.cs
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.csproj.CoreCompileInputs.cache
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.sourcelink.json
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.dll
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\refint\Infraestruture.Scaffold.dll
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.pdb
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\Infraestruture.Scaffold.genruntimeconfig.cache
+E:\repos\EfCore\Infraestruture.Scaffold\obj\Debug\net8.0\ref\Infraestruture.Scaffold.dll

@@ -14,3 +14,5 @@ E:\repos\EfCore\Infraestruture\obj\Debug\net8.0\Infraestruture.dll
 E:\repos\EfCore\Infraestruture\obj\Debug\net8.0\refint\Infraestruture.dll
 E:\repos\EfCore\Infraestruture\obj\Debug\net8.0\Infraestruture.pdb
 E:\repos\EfCore\Infraestruture\obj\Debug\net8.0\ref\Infraestruture.dll
+E:\repos\EfCore\Infraestruture\bin\Debug\net8.0\Infraestruture.runtimeconfig.json
+E:\repos\EfCore\Infraestruture\obj\Debug\net8.0\Infraestruture.genruntimeconfig.cache

@@ -1,48 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rafa_\\source\\repos\\EfCore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\infraestruture\\repository\\configuration\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\repository\\configuration\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\infraestruture\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\infraestruture\\repository\\configuration\\livroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\repository\\configuration\\livroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\core\\entity\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|solutionrelative:core\\entity\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\core\\entity\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|solutionrelative:core\\entity\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\core\\entity\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|solutionrelative:core\\entity\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\core\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|solutionrelative:core\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\infraestruture\\infraestruture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\infraestruture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}|EfCore\\EfCoreApi.csproj|c:\\users\\rafa_\\source\\repos\\efcore\\efcore\\efcoreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}|EfCore\\EfCoreApi.csproj|solutionrelative:efcore\\efcoreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "WorkspaceRootPath": "E:\\repos\\EfCore\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -50,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,136 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivroConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Repository\\Configuration\\LivroConfiguration.cs",
-              "RelativeDocumentMoniker": "Infraestruture\\Repository\\Configuration\\LivroConfiguration.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Repository\\Configuration\\LivroConfiguration.cs",
-              "RelativeToolTip": "Infraestruture\\Repository\\Configuration\\LivroConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:39:05.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClienteConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Repository\\Configuration\\ClienteConfiguration.cs",
-              "RelativeDocumentMoniker": "Infraestruture\\Repository\\Configuration\\ClienteConfiguration.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Repository\\Configuration\\ClienteConfiguration.cs",
-              "RelativeToolTip": "Infraestruture\\Repository\\Configuration\\ClienteConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:38:53.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Repository\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infraestruture\\Repository\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Repository\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infraestruture\\Repository\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:26:34.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\Pedido.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\Pedido.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\Pedido.cs",
-              "RelativeToolTip": "Core\\Entity\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:26:28.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\Livro.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\Livro.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\Livro.cs",
-              "RelativeToolTip": "Core\\Entity\\Livro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:26:26.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\EntityBase.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\EntityBase.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\EntityBase.cs",
-              "RelativeToolTip": "Core\\Entity\\EntityBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:26:25.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\Cliente.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\Cliente.cs",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Entity\\Cliente.cs",
-              "RelativeToolTip": "Core\\Entity\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:26:19.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Infraestruture.csproj",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Infraestruture.csproj",
-              "RelativeDocumentMoniker": "Infraestruture\\Infraestruture.csproj",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Infraestruture\\Infraestruture.csproj",
-              "RelativeToolTip": "Infraestruture\\Infraestruture.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T21:23:55.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Core.csproj",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Core.csproj",
-              "RelativeDocumentMoniker": "Core\\Core.csproj",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\Core\\Core.csproj",
-              "RelativeToolTip": "Core\\Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T21:23:55.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EfCoreApi.csproj",
-              "DocumentMoniker": "C:\\Users\\rafa_\\source\\repos\\EfCore\\EfCore\\EfCoreApi.csproj",
-              "RelativeDocumentMoniker": "EfCore\\EfCoreApi.csproj",
-              "ToolTip": "C:\\Users\\rafa_\\source\\repos\\EfCore\\EfCore\\EfCoreApi.csproj",
-              "RelativeToolTip": "EfCore\\EfCoreApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T21:23:51.347Z",
-              "EditorCaption": ""
             }
           ]
         }
