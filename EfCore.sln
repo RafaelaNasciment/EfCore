@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreApi", "EfCore\EfCoreApi.csproj", "{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{EDC43D1A-26BB-4657-A971-165B339D998C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestruture", "Infraestruture\Infraestruture.csproj", "{FF2AD651-4742-44C7-98AB-469C3F5594D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9B692B-4F16-4FBA-9EFC-D60A5EBC2A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC43D1A-26BB-4657-A971-165B339D998C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC43D1A-26BB-4657-A971-165B339D998C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC43D1A-26BB-4657-A971-165B339D998C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC43D1A-26BB-4657-A971-165B339D998C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2AD651-4742-44C7-98AB-469C3F5594D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2AD651-4742-44C7-98AB-469C3F5594D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2AD651-4742-44C7-98AB-469C3F5594D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2AD651-4742-44C7-98AB-469C3F5594D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FBF44DF-44A9-4F99-BD52-17D0DF87207C}
+	EndGlobalSection
+EndGlobal
