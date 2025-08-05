@@ -25,6 +25,7 @@ namespace Infraestruture.Migrations
             modelBuilder.Entity("Core.Entity.Cliente", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("INT");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
@@ -53,6 +54,7 @@ namespace Infraestruture.Migrations
             modelBuilder.Entity("Core.Entity.Livro", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("INT");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
@@ -78,6 +80,7 @@ namespace Infraestruture.Migrations
             modelBuilder.Entity("Core.Entity.Pedido", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("INT");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
@@ -93,6 +96,10 @@ namespace Infraestruture.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ClientId");
+
+                    b.HasIndex("LivroId");
+
                     b.ToTable("Pedido", (string)null);
                 });
 
@@ -100,13 +107,13 @@ namespace Infraestruture.Migrations
                 {
                     b.HasOne("Core.Entity.Cliente", "Cliente")
                         .WithMany("Pedidos")
-                        .HasForeignKey("Id")
+                        .HasForeignKey("ClientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Core.Entity.Livro", "Livro")
                         .WithMany("Pedidos")
-                        .HasForeignKey("Id")
+                        .HasForeignKey("LivroId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -10,7 +10,7 @@ namespace Infraestruture.Repository.Configuration
         {
             builder.ToTable("Cliente");
             builder.HasKey(c => c.Id);
-            builder.Property(c => c.Id).HasColumnType("INT").ValueGeneratedNever().UseIdentityColumn();
+            builder.Property(c => c.Id).HasColumnType("INT").UseIdentityColumn();
             builder.Property(c => c.DataCriacao).HasColumnName("DataCriacao").HasColumnType("DATETIME").IsRequired();
             builder.Property(c => c.Nome).HasColumnType("VARCHAR").IsRequired().HasMaxLength(100);
             builder.Property(c => c.DataNascimento).HasColumnType("DATETIME").IsRequired(false);

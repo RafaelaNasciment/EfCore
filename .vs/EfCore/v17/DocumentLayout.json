@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\repos\\EfCore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|e:\\repos\\efcore\\infraestruture\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|e:\\repos\\efcore\\infraestruture\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\repos\\EfCore\\Infraestruture\\Migrations\\20250805033407_CorrecaoFk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infraestruture\\Migrations\\20250805033407_CorrecaoFk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|e:\\repos\\efcore\\infraestruture\\repository\\configuration\\pedidoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD651-4742-44C7-98AB-469C3F5594D5}|Infraestruture\\Infraestruture.csproj|solutionrelative:infraestruture\\repository\\configuration\\pedidoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|e:\\repos\\efcore\\core\\entity\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC43D1A-26BB-4657-A971-165B339D998C}|Core\\Core.csproj|solutionrelative:core\\entity\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250805033407_CorrecaoFk.cs",
+              "DocumentMoniker": "E:\\repos\\EfCore\\Infraestruture\\Migrations\\20250805033407_CorrecaoFk.cs",
+              "RelativeDocumentMoniker": "Infraestruture\\Migrations\\20250805033407_CorrecaoFk.cs",
+              "ToolTip": "E:\\repos\\EfCore\\Infraestruture\\Migrations\\20250805033407_CorrecaoFk.cs",
+              "RelativeToolTip": "Infraestruture\\Migrations\\20250805033407_CorrecaoFk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T03:34:08.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\repos\\EfCore\\Infraestruture\\Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestruture\\Repository\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\repos\\EfCore\\Infraestruture\\Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infraestruture\\Repository\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T03:34:00.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoConfiguration.cs",
+              "DocumentMoniker": "E:\\repos\\EfCore\\Infraestruture\\Repository\\Configuration\\PedidoConfiguration.cs",
+              "RelativeDocumentMoniker": "Infraestruture\\Repository\\Configuration\\PedidoConfiguration.cs",
+              "ToolTip": "E:\\repos\\EfCore\\Infraestruture\\Repository\\Configuration\\PedidoConfiguration.cs",
+              "RelativeToolTip": "Infraestruture\\Repository\\Configuration\\PedidoConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T03:28:58.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "E:\\repos\\EfCore\\Core\\Entity\\Pedido.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\Pedido.cs",
+              "ToolTip": "E:\\repos\\EfCore\\Core\\Entity\\Pedido.cs",
+              "RelativeToolTip": "Core\\Entity\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T03:28:53.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "E:\\repos\\EfCore\\Infraestruture\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Infraestruture\\Repository\\ClienteRepository.cs",
+              "ToolTip": "E:\\repos\\EfCore\\Infraestruture\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "Infraestruture\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T02:38:26.101Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

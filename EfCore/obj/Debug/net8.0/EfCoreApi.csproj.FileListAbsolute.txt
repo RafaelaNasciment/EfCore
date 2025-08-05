@@ -88,3 +88,9 @@ E:\repos\EfCore\EfCore\bin\Debug\net8.0\Core.dll
 E:\repos\EfCore\EfCore\bin\Debug\net8.0\Infraestruture.dll
 E:\repos\EfCore\EfCore\bin\Debug\net8.0\Infraestruture.pdb
 E:\repos\EfCore\EfCore\bin\Debug\net8.0\Core.pdb
+E:\repos\EfCore\EfCore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+E:\repos\EfCore\EfCore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\repos\EfCore\EfCore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+E:\repos\EfCore\EfCore\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\repos\EfCore\EfCore\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\repos\EfCore\EfCore\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll

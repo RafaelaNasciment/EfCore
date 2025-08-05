@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "EfCoreApi.Controllers.ClienteController",
+    "Method": "GetClientesComPedidosUltimosSeisMeses",
+    "RelativePath": "Cliente/pedidos-seis-meses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EfCoreApi.Controllers.LivroController",
+    "Method": "GetAll",
+    "RelativePath": "Livro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EfCoreApi.Controllers.LivroController",
+    "Method": "Create",
+    "RelativePath": "Livro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livroInput",
+        "Type": "Core.Input.LivroInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EfCoreApi.Controllers.LivroController",
+    "Method": "Update",
+    "RelativePath": "Livro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livroInput",
+        "Type": "Core.Input.LivroUpdateInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EfCoreApi.Controllers.LivroController",
+    "Method": "GetAll",
+    "RelativePath": "Livro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EfCoreApi.Controllers.LivroController",
+    "Method": "Delete",
+    "RelativePath": "Livro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
