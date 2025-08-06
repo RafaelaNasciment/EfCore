@@ -8,6 +8,6 @@
         }
         public required string Editora { get; set; }
         public required string Nome { get; set; }
-        public ICollection<Pedido> Pedidos { get; set; }
+        public virtual ICollection<Pedido> Pedidos { get; set; }
     }
 }

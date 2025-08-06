@@ -1,34 +1,37 @@
 ﻿using Core.Entity;
+using Core.Input;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infraestruture.Repository
 {
     public class ClienteRepository : EfRepository<Core.Entity.Cliente>, Core.Repository.IClienteRepository
     {
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
         public ClienteRepository(ApplicationDbContext context) : base(context)
         {
             _context = context;
         }
 
-        public Cliente GetClientesComPedidosUltimosSeisMeses(int id)
+        public ClienteDto GetClientesComPedidosUltimosSeisMeses(int id)
         {
             var cliente = _context.Cliente
-                .Include(e => e.Pedidos)
-                    .ThenInclude(p => p.Livro)
-                .FirstOrDefault(c => c.Id == id);
+                .FirstOrDefault(c => c.Id == id) ?? throw new Exception();
 
-            cliente.Pedidos = cliente.Pedidos
-                .Where(p => p.DataCriacao >= DateTime.Now.AddMonths(-6))
-                .Select(p => 
-                {
-                    p.Cliente = null;
-                    p.Livro.Pedidos = null;
-                    return p;
-                })
-                .ToList();
-
-            return cliente ?? throw new Exception("Cliente não encontrado!");
+            return new ClienteDto(cliente)
+            {
+                PedidoDto = cliente.Pedidos
+                    .Where(p => p.DataCriacao >= DateTime.Now.AddMonths(-6))
+                    .Select(p => new PedidoDto(
+                        clientId: p.ClientId,
+                        livroId: p.LivroId,
+                        livro: new LivroDto() { 
+                            Editora = p.Livro.Editora, 
+                            Nome = p.Livro.Nome
+                        },
+                        id: p.Id,
+                        dataCriacao: p.DataCriacao))
+                    .ToList()
+            };
         }
     }
 }

@@ -1,9 +1,10 @@
 ﻿using Core.Entity;
+using Core.Input;
 
 namespace Core.Repository
 {
     public interface IClienteRepository : IRepository<Entity.Cliente>
     {
-        public Cliente GetClientesComPedidosUltimosSeisMeses(int id);
+        public ClienteDto GetClientesComPedidosUltimosSeisMeses(int id);
     }
 }
