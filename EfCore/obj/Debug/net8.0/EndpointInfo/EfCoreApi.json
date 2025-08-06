@@ -140,6 +140,18 @@
           }
         }
       }
+    },
+    "/Livro/cadastrar-em-massa": {
+      "post": {
+        "tags": [
+          "Livro"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

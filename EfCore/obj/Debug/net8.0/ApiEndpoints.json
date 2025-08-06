@@ -88,5 +88,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EfCoreApi.Controllers.LivroController",
+    "Method": "CadastroEmMassa",
+    "RelativePath": "Livro/cadastrar-em-massa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

@@ -1,4 +1,5 @@
-﻿using Core.Input;
+﻿using Core.Entity;
+using Core.Input;
 using Core.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -99,6 +100,39 @@ namespace EfCoreApi.Controllers
             catch (Exception ex)
             {
                 return BadRequest($"An error occurred while deleting the livro: {ex.Message}");
+            }
+        }
+
+        [HttpPost("cadastrar-em-massa")]
+        public IActionResult CadastroEmMassa()
+        {
+            try
+            {
+                var livros = new List<Livro>()
+                {
+                    new Livro(){ Editora = "Teste 1", Nome = "Teste 1"},
+                    new Livro(){ Editora = "Teste 2", Nome = "Teste 2"},
+                    new Livro(){ Editora = "Teste 3", Nome = "Teste 3"},
+                    new Livro(){ Editora = "Teste 4", Nome = "Teste 4"},
+                    new Livro(){ Editora = "Teste 5", Nome = "Teste 5"},
+                    new Livro(){ Editora = "Teste 6", Nome = "Teste 6"},
+                    new Livro(){ Editora = "Teste 7", Nome = "Teste 7"},
+                    new Livro(){ Editora = "Teste 8", Nome = "Teste 8"},
+                    new Livro(){ Editora = "Teste 9", Nome = "Teste 9"},
+                    new Livro(){ Editora = "Teste 10", Nome = "Teste 10"},
+                    new Livro(){ Editora = "Teste 11", Nome = "Teste 11"},
+                    new Livro(){ Editora = "Teste 12", Nome = "Teste 12"},
+                    new Livro(){ Editora = "Teste 13", Nome = "Teste 13"},
+                    new Livro(){ Editora = "Teste 14", Nome = "Teste 14"}
+                };
+
+                _livroRepository.AddList(livros);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
             }
         }
     }

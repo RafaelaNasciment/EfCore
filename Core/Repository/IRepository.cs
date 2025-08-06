@@ -8,6 +8,7 @@ namespace Core.Repository
         T GetById(int id);
         void Add(T entity);
         void Update(T entity);
+        void AddList(IEnumerable<T> entity);
         void Delete(int id);
     }
 }
