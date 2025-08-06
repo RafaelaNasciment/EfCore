@@ -9,7 +9,9 @@ get-help entityframework - verifica os comandos disponiveis
 
 table EfMigrationHistory - Responsável por gerenciar/armazenar os migrations do nosso banco de dados
 
-Database first - 
+Database-first
+
+ 
 O proprio scaffold fica responsável por mapear as entidades/relacionamentos/migrations do banco de dados. 
 
 PERFOMANCE
