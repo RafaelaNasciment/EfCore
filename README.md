@@ -1,5 +1,7 @@
 # EfCore
 Code-first
+
+
 Biblioteca Microsoft.EntityFrameworkCore.Design: gera os scripts que as migrations irão aplicar (cria um script de banco de dados (no nosso caso SQL) e traduz pro banco de dados)
 Biblioteca Microsoft.EntityFrameworkCore.Tools: disponibiliza os comandos para executar essa migrations
 
@@ -25,6 +27,7 @@ Para melhorar performance, você pode "brincar" com essa ferramenta.
 
 ------------------------
 * Read
+
 Eager load: Tras todos os dados de uma unica vez (com includes), e você manipula o que for necessário, a partir desse carregamento massivo. Esse modelo é padrão no EFCore
 
 Lazy load: Tras as informações somente quando for requisitada. É necessário adicionar a biblioteca Microsoft.EntityFrameworkCore.Proxies para importar essa funcionalidade.
